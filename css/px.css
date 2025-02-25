@@ -1,0 +1,34 @@
+.singUpButton {
+    background-color: #5D4FFF; /* Green */
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+  }
+.loginButton {
+    background-color: white; /* Green */
+    font-weight: bold;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-right:20px ;
+  }
+.topContent {
+  background-color: #F5F5F5;
+}
+
+header {
+  text-align: left;
+  padding-left: 100px;
+  ;
+}
