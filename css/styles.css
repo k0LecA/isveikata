@@ -14,6 +14,7 @@ header {
 }
 .criteriaContainer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     grid-template-columns: auto auto auto;
     background-color: dodgerblue;
@@ -53,4 +54,30 @@ header {
     background-size: 20px;
     padding-left: 40px;
     
+}
+.purplebutton {
+    background-color: #5D4FFF; /* Green */
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.graybutton {
+    background-color: white; /* Green */
+    font-weight: bold;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-right:20px ;
   }
