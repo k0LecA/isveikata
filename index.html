@@ -1,45 +1,96 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="css/px.css">
 <html lang="en">
+<link rel="stylesheet" href="css/styles.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body style="font-family: sans-serif;">
-    <div align="right">
-        <button class="loginButton">Login</button>
-        <button class="singUpButton">Sign Up</button>
-    </div>
-    
-    <header class="container topContent" style="white-space: pre-line;">
+    <header>
+        <div class="headContainer">
+            <div class="left">
+                <img class="logo" src="images/logo.png" alt="">
+                iSveikata
+            </div>
+            <div class="right">
+                <button class="purplebutton">Sign Up</button>
+                <button class="graybutton">Log In</button>
+            </div>
+        </div>
+    </header>
 
-        <div class="left">
-            <h1 style="font-size: xxx-large;">
-
+    <div class="mainContainer" style="background-color: #F5F5F5;">
+        <div class="mainLeft">
+            <h1>
                 Discover <span style="color:#5D4FFF">Top-Rated Clinics
-                & Patient</span> Experiences
+                    & Patient</span> Experiences
             </h1>
             <div style="white-space: pre-line; color: gray; font-weight: bold; letter-spacing: 1px;">
                 Easily compare top-rated clinics based on real patient reviews,
                 ratings, and services to make informed healthcare choices.
+
             </div>
-            <button class="singUpButton">Find Care</button>
+            <button class="purplebutton">Find Care</button>
         </div>
-        <div>
-            <img src="images/doc.png">
+        <div class="mainRight">
+            <img src="images/doc.png" alt="">
         </div>
-    </header>
-    <div class="element">
-        <form action="/action_page.php" >
+    </div>
+
+    <div class="searchContainer">
+        <div class="searchField">
             <input class= "searchbar" type="text" placeholder="Search by keyword" name="search">
-          </form>
+        </div>
+        <div class="criteriaContainer">
+            <input class= "criteriabar" type="text" placeholder="Location" name="search">
+            <input class= "criteriabar" type="text" placeholder="Price Range" name="search">
+            <input class= "criteriabar" type="text" placeholder="Rating" name="search">
+            <button class="purplebutton">Show More Filters</button>
+        </div>
     </div>
-    <div class="searchCriterias">
-        <input class= "locationbar" type="text" placeholder="Location" name="location">
-        <input class= "locationbar" type="text" placeholder="Location" name="location">
-        <input class= "locationbar" type="text" placeholder="Location" name="location">
-        <button class="singUpButton">Show More Filters</button>
-    </div>
+
+    <div class="cardContainer" style="background-color: #F5F5F5">
+        <div class="card">
+                <img src="images/clinic.jpg">
+                <div class="card-content">
+                    <div class="card-title">Dental Care Plus</div>
+                    <div class="rating">⭐ 4.9 (156)</div>
+                    <div class="location">📍 Downtown Medical Center, Suite 406</div>
+                    <div class="services">🦷 Dental Care, Orthodontics</div>
+                    <a href="#" class="more">More</a>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/clinic.jpg">
+            <div class="card-content">
+                <div class="card-title">Dental Care Plus</div>
+                <div class="rating">⭐ 4.9 (156)</div>
+                <div class="location">📍 Downtown Medical Center, Suite 406</div>
+                <div class="services">🦷 Dental Care, Orthodontics</div>
+                <a href="#" class="more">More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/clinic.jpg">
+            <div class="card-content">
+                <div class="card-title">Dental Care Plus</div>
+                <div class="rating">⭐ 4.9 (156)</div>
+                <div class="location">📍 Downtown Medical Center, Suite 406</div>
+                <div class="services">🦷 Dental Care, Orthodontics</div>
+                <a href="#" class="more">More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/clinic.jpg">
+            <div class="card-content">
+                <div class="card-title">Dental Care Plus</div>
+                <div class="rating">⭐ 4.9 (156)</div>
+                <div class="location">📍 Downtown Medical Center, Suite 406</div>
+                <div class="services">🦷 Dental Care, Orthodontics</div>
+                <a href="#" class="more">More</a>
+            </div>
+        </div>
+    </div> 
 </body>
 </html>
