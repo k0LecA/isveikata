@@ -1,13 +1,66 @@
-div {
-    background-color: green;
+.headContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+
+}
+.left {
+    display: flex;
+    align-items: center; /* Vertically align the text and logo */
 }
 
-header {
-    background-color: antiquewhite;
+.logo {
+    width: 40px; /* Adjust logo size as needed */
+    height: auto;
+    margin-right: 10px; /* Space between the logo and text */
+}
+
+.left {
+    padding-left: 15%;
+    font-size: 32px;
+    font-weight: bold;
+    gap: 10%;
+}
+
+/* Style for the right side (buttons) */
+.right {
+    padding-right: 15%;
+}
+.right button {
+    margin-left: 10px; /* Adds space between the buttons */
+}
+
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.mainLeft {
+    flex:1;
+    text-align: left;
+    padding-left: 10%;
+}
+.mainRight img{
+    max-width: 100%;
+    height: auto;
+    
+}
+.mainLeft h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+.mainLeft p {
+    font-size: 18px;
 }
 .searchContainer {
     display: flex;
-    background-color: blue;
+    
     padding: 10px;
     padding-left: 10%;
     padding-right: 10%;
@@ -17,7 +70,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     grid-template-columns: auto auto auto;
-    background-color: dodgerblue;
+    
     padding: 10px;
     gap: 15px;
     padding-left: 10%;

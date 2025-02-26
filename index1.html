@@ -6,24 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="font-family: sans-serif;">
     <header>
-        header
+        <div class="headContainer">
+            <div class="left">
+                <img class="logo" src="images/logo.png" alt="">
+                iSveikata
+            </div>
+            <div class="right">
+                <button class="purplebutton">Sign Up</button>
+                <button class="graybutton">Log In</button>
+            </div>
+        </div>
     </header>
-    <div>
-        div
+
+    <div class="mainContainer" style="background-color: #F5F5F5;">
+        <div class="mainLeft">
+            <h1>
+                Discover <span style="color:#5D4FFF">Top-Rated Clinics
+                    & Patient</span> Experiences
+            </h1>
+            <div style="white-space: pre-line; color: gray; font-weight: bold; letter-spacing: 1px;">
+                Easily compare top-rated clinics based on real patient reviews,
+                ratings, and services to make informed healthcare choices.
+
+            </div>
+            <button class="purplebutton">Find Care</button>
+        </div>
+        <div class="mainRight">
+            <img src="images/doc.png" alt="">
+        </div>
     </div>
 
-    <section>section</section>
-
-    <div class="searchContainer">
-        <input class= "searchbar" type="text" placeholder="Search by keyword" name="search">
+    <div class="">
+        <div class="searchContainer">
+            <input class= "searchbar" type="text" placeholder="Search by keyword" name="search">
+        </div>
+        <div class="criteriaContainer">
+            <input class= "criteriabar" type="text" placeholder="Location" name="search">
+            <input class= "criteriabar" type="text" placeholder="Price Range" name="search">
+            <input class= "criteriabar" type="text" placeholder="Rating" name="search">
+            <button class="purplebutton">Show More Filters</button>
+        </div>
     </div>
-    <div class="criteriaContainer">
-        <input class= "criteriabar" type="text" placeholder="Location" name="search">
-        <input class= "criteriabar" type="text" placeholder="Price Range" name="search">
-        <input class= "criteriabar" type="text" placeholder="Rating" name="search">
-        <button class="purplebutton">Show More Filters</button>
-    </div>
+    
 </body>
 </html>
