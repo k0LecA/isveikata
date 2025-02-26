@@ -1,0 +1,56 @@
+div {
+    background-color: green;
+}
+
+header {
+    background-color: antiquewhite;
+}
+.searchContainer {
+    display: flex;
+    background-color: blue;
+    padding: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.criteriaContainer {
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    background-color: dodgerblue;
+    padding: 10px;
+    gap: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.criteriaContainer > div {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    flex:1;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.searchbar[type=text]{
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url('search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 40px;
+    
+}
+.criteriabar[type=text]{
+    flex:1;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+    background-image: url('search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 40px;
+    
+  }
