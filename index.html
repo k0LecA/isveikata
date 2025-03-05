@@ -14,11 +14,32 @@
                 iSveikata
             </div>
             <div class="right">
-                <button class="purplebutton">Sign Up</button>
-                <button class="graybutton">Log In</button>
+                <button type="button" class="purplebutton" id="signup"><span>Sign Up</span></button>
+                <button type="button "class="graybutton" id="login"><span>Log In</span></button>
             </div>
         </div>
     </header>
+
+    <!--popup-->
+    <div class="overlay" id="overlay"></div>
+
+    <div class="form" id="signupForm">
+        <h2>Sign Up</h2>
+        <input type="text" placeholder="Full Name" id="fullname">
+        <input type="email" placeholder="Email" id="signMail">
+        <input type="password" placeholder="Password" id="signPass">
+        <button id="sign">Sign Up</button> 
+        <button class="graybutton" id="closeSign">Close</button>
+    </div>
+    <div class="form" id="loginForm">
+        <h2>Log In</h2>
+        <input type="email" placeholder="Email" id="logMail">
+        <input type="password" placeholder="Password" id="logPass">
+        <button id="log">Log In</button> 
+        <button class="graybutton" id="closeLog">Close</button>
+    </div>
+
+
 
     <div class="mainContainer" style="background-color: #F5F5F5;">
         <div class="mainLeft">
@@ -31,7 +52,7 @@
                 ratings, and services to make informed healthcare choices.
 
             </div>
-            <button class="purplebutton">Find Care</button>
+            <button class="purplebutton"><span>Find Care</span></button>
         </div>
         <div class="mainRight">
             <img src="images/doc.png" alt="">
@@ -43,10 +64,10 @@
             <input class= "searchbar" type="text" placeholder="Search by keyword" name="search">
         </div>
         <div class="criteriaContainer">
-            <input class= "criteriabar" type="text" placeholder="Location" name="search">
-            <input class= "criteriabar" type="text" placeholder="Price Range" name="search">
-            <input class= "criteriabar" type="text" placeholder="Rating" name="search">
-            <button class="purplebutton">Show More Filters</button>
+            <input class= "locationbar" type="text" placeholder="Location" name="search">
+            <input class= "pricebar" type="text" placeholder="Price Range" name="search">
+            <input class= "ratingbar" type="text" placeholder="Rating" name="search">
+            <button class="purplebutton"><span>Show More Filters</span></button>
         </div>
     </div>
 
@@ -64,7 +85,7 @@
         <div class="card">
             <img src="images/clinic.jpg">
             <div class="card-content">
-                <div class="card-title">Dental Care Plus</div>
+                <div class="card-title">Obama Care Plus</div>
                 <div class="rating">⭐ 4.9 (156)</div>
                 <div class="location">📍 Downtown Medical Center, Suite 406</div>
                 <div class="services">🦷 Dental Care, Orthodontics</div>
@@ -91,6 +112,7 @@
                 <a href="#" class="more">More</a>
             </div>
         </div>
-    </div> 
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
